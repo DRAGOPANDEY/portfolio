@@ -39,7 +39,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="relative scroll-mt-20 py-24 sm:py-32">
+    <section id="contact" className="relative scroll-mt-20 py-20 sm:py-28 lg:py-32">
       <div className="container-section">
         <SectionHeading
           eyebrow="Contact"
@@ -53,7 +53,7 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="card-elevated flex flex-col gap-6 p-8"
+            className="card-elevated flex flex-col gap-6 p-6 sm:p-8"
           >
             <div>
               <h3 className="mb-2 font-display text-2xl font-semibold">
@@ -122,7 +122,8 @@ export function Contact() {
                 Available for new opportunities
               </div>
               <p className="text-emerald-200/70">
-                Open to DevOps, AI Engineer and Computer Vision roles.
+                Open to DevOps, Edge Systems and Infrastructure roles —
+                full-time or freelance.
               </p>
             </div>
           </motion.div>
@@ -133,7 +134,7 @@ export function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             onSubmit={handleSubmit}
-            className="card-elevated flex flex-col gap-4 p-8"
+            className="card-elevated flex flex-col gap-4 p-6 sm:p-8"
           >
             <div className="grid gap-4 sm:grid-cols-2">
               <Field label="Name" name="name" placeholder="Jane Doe" required />

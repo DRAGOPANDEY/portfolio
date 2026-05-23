@@ -6,7 +6,7 @@ import { skillCategories } from "@/data/skills";
 
 export function Skills() {
   return (
-    <section id="skills" className="relative scroll-mt-20 py-24 sm:py-32">
+    <section id="skills" className="relative scroll-mt-20 py-20 sm:py-28 lg:py-32">
       <div className="container-section">
         <SectionHeading
           eyebrow="Tech Stack"

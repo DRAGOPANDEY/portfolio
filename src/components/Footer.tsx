@@ -17,8 +17,9 @@ export function Footer() {
               Mohit Pandey
             </a>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
-              DevOps and AI engineer building production-grade computer vision
-              systems. Available worldwide for freelance and full-time work.
+              DevOps engineer building production infrastructure, edge systems
+              and air-gap deployments. Available worldwide for freelance and
+              full-time work.
             </p>
             <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300">
               <span className="relative flex size-2">

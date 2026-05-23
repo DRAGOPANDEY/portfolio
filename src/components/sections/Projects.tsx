@@ -24,7 +24,7 @@ export function Projects() {
   }, [active]);
 
   return (
-    <section id="projects" className="relative scroll-mt-20 py-24 sm:py-32">
+    <section id="projects" className="relative scroll-mt-20 py-20 sm:py-28 lg:py-32">
       <div className="container-section">
         <SectionHeading
           eyebrow="Selected Work"

@@ -14,7 +14,7 @@ const iconMap = {
 
 export function Services() {
   return (
-    <section id="services" className="relative scroll-mt-20 py-24 sm:py-32">
+    <section id="services" className="relative scroll-mt-20 py-20 sm:py-28 lg:py-32">
       <div className="container-section">
         <SectionHeading
           eyebrow="What I Do"
